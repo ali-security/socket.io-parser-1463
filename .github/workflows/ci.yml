@@ -52,5 +52,3 @@ jobs:
       - run: npm test
         env:
           BROWSERS: 1
-          SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
-          SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
